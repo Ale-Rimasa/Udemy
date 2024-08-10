@@ -54,7 +54,7 @@ GO
 -------------------------------------------------------------------------------------------
 --Video 15 Insertar registros en tabla parte03, mediante codigo 
 INSERT INTO Usuarios VALUES(						--ACA aplicamos direcamente el values, y este tomara la informacion sabiendo que colocar en cada columna
-	'004','Solar','Este','05/12/1998','28')		--En el mismo orden		
+	'004','Daniela','Flores','04/02/1992','33')		--En el mismo orden		
 GO										
 -------------------------------------------------------------------------------------------
 --Video 16 Actualizar registros en las tablas (Click derecho -> Edit Top 200)
@@ -68,7 +68,7 @@ UPDATE Usuarios SET Nombres='Luis' WHERE Codigo='002'
 --Video 17 Eliminar Registros de tablas [Interfaz grafica] Click derecho -> edit TOP 200
 DELETE FROM Nombre_Tabla WHERE Columna1=dato1
 
-DELETE FROM Usuarios WHERE Codigo= '003'
+DELETE FROM Usuarios WHERE Codigo= '004'
 
 DELETE FROM Usuarios WHERE Apellidos='rementeria'; --Tener cuidado con este tipo de consultas, xq pueden eliminar mas de una fila pueden haber varios apellidos.
 -------------------------------------------------------------------------------------------
